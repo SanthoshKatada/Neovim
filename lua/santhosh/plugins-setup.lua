@@ -55,4 +55,8 @@ return require("packer").startup(function(use)
 			require("nvim-treesitter.install").update({ with_sync = true })
 		end,
 	})
+
+	use "windwp/nvim-ts-autotag"
+	use "windwp/nvim-autopairs"
+	use "norcalli/nvim-colorizer.lua"
 end)
