@@ -8,6 +8,7 @@ vim.keymap.set("n" , "<leader>pv" , vim.cmd.Ex)
 
 vim.keymap.set("n" , "<leader>h" , vim.cmd.bprev)
 vim.keymap.set("n" , "<leader>l" , vim.cmd.bnext)
+vim.keymap.set("n" , "<leader>x" , vim.cmd.bd)
 
 vim.keymap.set("n" , "<leader>sv" , "<C-w>v") -- Split Vertically
 vim.keymap.set("n" , "<leader>sh" , "<C-w>s") -- Split Horizontally
